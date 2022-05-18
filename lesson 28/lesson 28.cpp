@@ -97,6 +97,7 @@ public:
             return false;
         }
 
+
         m_pTexture = new Texture(GL_TEXTURE_2D, "C:/Users/sofya/source/repos/lr5 IikG/lesson 28/Content/bricks.jpg");
 
         if (!m_pTexture->Load()) {
